@@ -5,16 +5,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
-
 /* INÍCIO DO MEU CABEÇALHO */
 header {
     padding: 70px;
     background-color: rgb(78, 135, 168);
 }
-
-
 
 .menu-header {
     display: flex;
@@ -27,7 +22,6 @@ header {
     color: white;
 }
 
-
 .menu-header > li > a:hover{
     color: rgb(81, 81, 228); /*Habilitando uma cor ao passar o mouse*/
     transition: 0.8s; /*Adicionamos aqui uma transição*/
@@ -36,35 +30,25 @@ header {
 .menu-header > li {
     margin-left: 20px;
 }
-
 /* FINAL DO MEU CABEÇALHO */
 
-
-
-
-
-
-
-
-#sessao {
+#secao {
     padding: 250px;
     background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%); /*Uma cor com Degradê*/
 }
 
 
-#sessao h1 {
+#secao h1 {
     font-size: 45px; /*Tamanho da letra*/
     color: rgba(0, 0, 0, 0.712); /*Cor da letra */
 }
 
-
 #sessao > p { /*Alterando nosso Paragráfo dentro da nossa primeira ID*/
     font-size: 40px; /*Tamanho da letra*/
     margin: 20px 0;
- }
+}
 
-
- #sessao > a > button { /*Chamamos nosso Button que está dentro dessa primeira sessão*/
+#secao > a > button { /*Chamamos nosso Button que está dentro dessa primeira sessão*/
     padding: 20px; /*Tamanho do preenchimento interno do botão*/
     border-radius: 50px; /*Borda arredondada do botão*/
     width: 300px; /*Tamanho lateral do botão (largura) */
@@ -73,16 +57,12 @@ header {
     margin: 5px; /*Margem em volta do Button*/
 }
 
-
-
-
 #app {
     padding: 250px;
     background-color: rgb(226, 233, 233); /*cor de fundo*/
     display: flex;
     justify-content: space-around;
 }
-
 
 #app a button {
 
@@ -92,42 +72,24 @@ header {
     cursor: pointer;
     border-color: rgb(19, 153, 108); /*Cor da borda*/
     margin: 5px; /*Margem em volta do Button*/
-
-
 }
 
 #app div p{ /*Chamamos nosso Parágrafo para estilização*/
     font-size: 43px; /*Alteração do tamanho da letra*/
 }
 
-
 #app div img {
-     /*Imagem que está dentro da nossa segunda Section*/
-        width: 500px; /*Lagura da nossa img*/
-        height: 500px; /*Altura da nossa img*/
-        margin-left: 50px; /*Margem a Esquerda*/
-        margin-top: -70px; /*Margem a superio*/
-    
+    /*Imagem que está dentro da nossa segunda Section*/
+    width: 500px; /*Lagura da nossa img*/
+    height: 500px; /*Altura da nossa img*/
+    margin-left: 50px; /*Margem a Esquerda*/
+    margin-top: -70px; /*Margem a superio*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #container {
     padding: 250px;
     background-color: rgb(226, 233, 233); /*cor de fundo*/
 }
-
 
 #container h2 { /*Chamamos nosso H2 para estilização*/
     font-size: 40px; /*Tamanho da letra*/
@@ -155,35 +117,16 @@ header {
     color: white;
 }
 
-
 .line { /*Class usada para nossa Tag HR*/
     margin: 20px auto; /*Margem superior e inferior 20px e laterais automaticas*/
     width: 70%; /*Tamanho da linha*/
 }
-
-
 
 #container img { /*Imagem dentro da nossa Terceira section*/
     margin-left: 12rem; /*Margem a esquerda*/
     margin-top: 30px; /*Margem superior*/
     width: 40rem; /*Largura da imagem*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #container-cofre {
     background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(imagens/img\ cofre\ fundo.jpg);
@@ -194,7 +137,6 @@ header {
     justify-content: space-evenly;
     align-items: center;
 }
-
 
 #container-cofre img { /*Chamamos nossa IMG para estilização*/
     width: 25rem; /*Largura da img*/
@@ -216,18 +158,7 @@ header {
     font-size: 17px; /*Tamanho da letra*/
     text-align: center;
     margin-top: 2rem; /*margem superior*/
-   
 }
-
-
-
-
-
-
-
-
-
-
 
 footer {
     padding: 50px;
